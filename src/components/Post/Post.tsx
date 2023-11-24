@@ -17,7 +17,7 @@ interface Content {
   content: string;
 }
 
-interface PostType {
+export interface PostType {
   id: number;
   author: Author;
   publishedAt: Date;
